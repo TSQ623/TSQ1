@@ -1,0 +1,20 @@
+.image-gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-gallery img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    transition: filter 0.3s ease;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
